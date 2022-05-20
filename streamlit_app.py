@@ -11,7 +11,7 @@ import base64
 from transformers import DetrFeatureExtractor, DetrForObjectDetection, pipeline
 from PIL import Image
 import requests
-from pyzbar import pyzbar
+from pyzbar.pyzbar import decode
 import numpy as np
 from bidi.algorithm import get_display
 from io import BytesIO
@@ -46,7 +46,7 @@ import cv2
 
 def read_barcodes(frame):
     if st.session_state.barcode == -1 :    
-        barcodes = pyzbar.decode(frame)
+        barcodes = decode(frame)
         for barcode in barcodes:
             st.session_state.barcode = barcode.data.decode('utf-8')        
 
