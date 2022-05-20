@@ -5,6 +5,7 @@ transformers
 Pillow
 requests
 pyzbar
+opencv-python
 cv2
 numpy
 bidi.algorithm
