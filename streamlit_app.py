@@ -17,6 +17,7 @@ from bidi.algorithm import get_display
 from io import BytesIO
 import gzip
 import xml.etree.ElementTree as ET
+import cv2
 
 
 
