@@ -10,7 +10,6 @@ numpy
 python-bidi
 zipp
 zbar-py
-libzbar0
 libzbar-cffi
 libsm6
 libxrender1
