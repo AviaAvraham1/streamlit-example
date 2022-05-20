@@ -11,7 +11,3 @@ python-bidi
 zipp
 zbar-py
 libzbar-cffi
-libsm6
-libxrender1
-libfontconfig1
-libice6
