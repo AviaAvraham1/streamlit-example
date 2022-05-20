@@ -7,6 +7,6 @@ requests
 pyzbar
 opencv-python
 numpy
-bidi.algorithm
+python-bidi
 gzip
 xml.etree.ElementTree
