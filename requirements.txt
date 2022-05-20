@@ -13,7 +13,7 @@ zbar-py
 libzbar-dev
 libgl1
 libzbar0
-libzbar-dev
+libzbar-cffi
 libsm6
 libxrender1
 libfontconfig1
