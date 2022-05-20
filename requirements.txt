@@ -5,7 +5,7 @@ transformers
 Pillow
 requests
 pyzbar
-opencv-python
+opencv-python-headless
 numpy
 python-bidi
 zipp
