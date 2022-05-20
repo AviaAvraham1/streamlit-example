@@ -1,3 +1,12 @@
 altair
 pandas
 streamlit
+transformers
+PIL
+requests
+pyzbar
+cv2
+numpy
+bidi.algorithm
+gzip
+xml.etree.ElementTree
