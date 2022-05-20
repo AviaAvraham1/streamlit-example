@@ -12,7 +12,6 @@ from transformers import DetrFeatureExtractor, DetrForObjectDetection, pipeline
 from PIL import Image
 import requests
 import pyzbar
-import cv2
 import numpy as np
 from bidi.algorithm import get_display
 from io import BytesIO
