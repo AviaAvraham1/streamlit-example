@@ -9,4 +9,4 @@ opencv-python-headless
 numpy
 python-bidi
 zipp
-libzbar-cffi
+zbar-py
