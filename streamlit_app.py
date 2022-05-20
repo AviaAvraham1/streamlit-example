@@ -11,7 +11,7 @@ import base64
 from transformers import DetrFeatureExtractor, DetrForObjectDetection, pipeline
 from PIL import Image
 import requests
-from pyzbar import pyzbar
+import pyzbar
 import cv2
 import numpy as np
 from bidi.algorithm import get_display
