@@ -8,5 +8,5 @@ pyzbar
 opencv-python
 numpy
 python-bidi
-gzip
+zipp
 xml.etree.ElementTree
