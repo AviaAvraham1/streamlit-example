@@ -10,4 +10,4 @@ numpy
 python-bidi
 zipp
 zbar-py
-zbar-tools
+libzbar-dev
