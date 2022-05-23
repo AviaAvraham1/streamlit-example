@@ -63,7 +63,7 @@ if picture:
     st.image(picture)
     img = Image.open(picture)
     cv2_img = cv2.imdecode(np.frombuffer(picture.getbuffer(), np.uint8), cv2.IMREAD_COLOR)
-    read_barcodes(cv2_img)
+    #read_barcodes(cv2_img)
     if st.session_state.barcode == -1:
         model = pipeline("image-classification")
         arr = model(img)
