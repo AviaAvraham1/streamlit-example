@@ -11,3 +11,4 @@ python-bidi
 zipp
 zbar-py
 tensorflow==2.2.0
+libzbar0
